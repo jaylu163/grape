@@ -7,7 +7,7 @@ import (
 )
 
 var (
-	key = []byte("sujor-api")
+	key = []byte("peaceful-api")
 )
 
 // 生成jwt
@@ -21,7 +21,7 @@ func GenerateJWT() (tokenString string, err error) {
 	token.Claims = &jwt.StandardClaims{
 		NotBefore: time.Now().Unix(),
 		ExpiresAt: time.Now().Add(time.Hour * time.Duration(1)).Unix(),
-		Issuer:    "admin",
+		Issuer:    "admin-user",
 	}
 	tokenString, err = token.SignedString(key)
 	log.Println(tokenString)
