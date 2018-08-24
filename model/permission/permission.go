@@ -1,7 +1,7 @@
 package permission
 
 import (
-	db "go-sujor/database"
+	db "grape/database"
 )
 
 type Permission struct {

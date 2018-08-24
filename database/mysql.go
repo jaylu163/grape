@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	_ "github.com/go-sql-driver/mysql"
 	"log"
-	"go-sujor/config"
+	"grape/config"
 )
 
 var SqlDB *sql.DB

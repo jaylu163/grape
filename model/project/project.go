@@ -1,7 +1,7 @@
 package project
 
 import (
-	db "go-sujor/database"
+	db "grape/database"
 	"log"
 )
 

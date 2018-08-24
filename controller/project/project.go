@@ -5,8 +5,8 @@ import (
 	"log"
 	"net/http"
 	"strconv"
-	"go-sujor/config"
-	. "go-sujor/model/project"
+	"grape/config"
+	. "grape/model/project"
 )
 
 func GetProjectsApi(c *gin.Context)  {

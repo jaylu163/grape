@@ -1,9 +1,9 @@
 package user
 
 import (
-	. "go-sujor/model/user"
-	"go-sujor/config"
-	"go-sujor/middleware/authJWT"
+	. "grape/model/user"
+	"grape/config"
+	"grape/middleware/authJWT"
 	"github.com/gin-gonic/gin"
 	"log"
 	"net/http"

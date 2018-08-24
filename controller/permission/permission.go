@@ -2,8 +2,8 @@ package permission
 
 import (
 	"github.com/gin-gonic/gin"
-	. "go-sujor/model/permission"
-	"go-sujor/config"
+	. "grape/model/permission"
+	"grape/config"
 	"log"
 	"net/http"
 )

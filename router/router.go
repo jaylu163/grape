@@ -4,12 +4,12 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/itsjamie/gin-cors"
 	"time"
-	indexController "go-sujor/controller/index"
-	userController "go-sujor/controller/user"
-	permissionController "go-sujor/controller/permission"
-	projectController "go-sujor/controller/project"
-	mottoController "go-sujor/controller/motto"
-	articleController "go-sujor/controller/article"
+	indexController "grape/controller/index"
+	userController "grape/controller/user"
+	permissionController "grape/controller/permission"
+	projectController "grape/controller/project"
+	mottoController "grape/controller/motto"
+	articleController "grape/controller/article"
 )
 
 // Initialize Router

@@ -1,15 +1,16 @@
 package main
 
 import (
-	db "go-sujor/database"
-	rt "go-sujor/router"
 	"github.com/gin-gonic/gin"
+	db "grape/database"
+	rt "grape/router"
 )
 
 func main() {
 	gin.SetMode(gin.ReleaseMode)
-	//gin.SetMode(gin.DebugMode)
+	gin.SetMode(gin.DebugMode)
+
 	defer db.SqlDB.Close()
 	router := rt.InitRouter()
-	router.Run(":3000")
+	router.Run(":8800")
 }

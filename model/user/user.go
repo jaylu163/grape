@@ -1,7 +1,7 @@
 package user
 
 import (
-	db "go-sujor/database"
+	db "grape/database"
 	"log"
 	"fmt"
 	"strconv"
