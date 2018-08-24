@@ -11,4 +11,3 @@ mysql
 jwt
 
 ### 地址
-https://api.sujor.com/
