@@ -12,5 +12,5 @@ func main() {
 
 	defer db.SqlDB.Close()
 	router := rt.InitRouter()
-	router.Run(":8800")
+	router.Run(":7621")
 }
