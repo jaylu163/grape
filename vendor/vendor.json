@@ -27,6 +27,12 @@
 			"revisionTime": "2018-08-17T03:33:23Z"
 		},
 		{
+			"checksumSHA1": "Y8Vu2NT4c2ve963fedBxoJyiU6s=",
+			"path": "github.com/gin-gonic/gin/internal/json",
+			"revision": "cce49582d617333c72f4d86abd8ef0e62eb778a0",
+			"revisionTime": "2018-12-05T05:49:03Z"
+		},
+		{
 			"checksumSHA1": "woO1qIxIeQ1bcbPSiMfAKk3r4xg=",
 			"path": "github.com/gin-gonic/gin/json",
 			"revision": "f5451bd645be353ba40cd5d308a545f201e68283",
@@ -81,13 +87,13 @@
 			"revisionTime": "2018-07-18T01:23:57Z"
 		},
 		{
-			"checksumSHA1": "mHHGD9lLyDWpcgUvP4ZyrA5DlMs=",
+			"checksumSHA1": "K5D4zWjJA9HWph4H+xumKo/bsq0=",
 			"path": "github.com/ugorji/go/codec",
 			"revision": "00b869d2f4a5e27445c2d916fa106fc72c106d4c",
 			"revisionTime": "2018-08-13T09:23:08Z"
 		},
 		{
-			"checksumSHA1": "ZerpiXZfy0zb96H+zhsChN+1iYA=",
+			"checksumSHA1": "pvt1wNJX938Vl+eWoraV/CfPxXg=",
 			"path": "golang.org/x/sys/unix",
 			"revision": "11551d06cbcc94edc80a0facaccbda56473c19c1",
 			"revisionTime": "2018-08-23T14:12:18Z"

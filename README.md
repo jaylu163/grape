@@ -1,5 +1,5 @@
-# go-sujor
-前后分离之博客后端项目
+# go-gin
+博客后端项目
 
 ### 语言
 golang gin框架
